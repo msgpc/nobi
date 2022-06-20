@@ -14,21 +14,21 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
+    API_ID = 16694959  # integer value, dont use ""
+    API_HASH = "971de5f1f970b2fb7ab416188816248e"
     TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 792109647  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Sawada"
-    SUPPORT_CHAT = "OnePunchSupport"  # Your own group for support, do not add the @
+    OWNER_ID = 5123893801  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = ""
+    SUPPORT_CHAT = "Mscvdc"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001253661229
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001190806654
+        -1001746459261
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules # its "URI" and not "URL" as herok and similar ones only accept it as such
+    SQLALCHEMY_DATABASE_URI = "mongodb+srv://madhan:madhan@cluster0.5xfcp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"  # needed for any database modules # its "URI" and not "URL" as herok and similar ones only accept it as such
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
